@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://i.artfile.ru/1920x1080_1083541_[www.ArtFile.ru].jpg);
+    background-attachment: fixed;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#gamezone{
+    background-image: url("cfc0a64bf4c14be1620cb26e352e1.jpeg");
+    border: 1px solid black;
+    background-color: rgb(2, 144, 157);
+    height: 350px;
+    width: 650px;
+}
+
+.character{
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+
+    background-image:url("Санэми Синадзугава .jpg");
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+/* скрытный персонаж */
+.hidden{
+    display: none;
+}
+
+/* видимый персонаж */
+.visible{
+    display: block;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 30px;
+    color: wheat;
+    margin-bottom: 30px;
+    background-color: orange;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: rgb(21, 14, 82);
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    text-shadow: 0px 2px 2px rgb(83, 78, 78);
+}
+
+.tangiro{
+    background-image: url("танжиро камадо.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.character:hover{
+    scale: 1.1;  /*увеличивается размер*/
+}
+
